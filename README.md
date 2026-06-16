@@ -130,7 +130,7 @@ graph LR
 | 模組 | 檔案 | 功能 |
 |------|------|------|
 | 主程式生命週期 | `src/App.cpp` | 處理 Start、Loading、Update、End 與輸入流程 |
-| 遊戲流程 | `src/Ark/GameLogic.cpp` | 初始化關卡、波次、DP/LP、勝敗與關卡轉換 |
+| 遊戲流程 | `src/Ark/GameLogic.cpp` | 初始化關卡、波次、部屬費用/耐久度、勝敗與關卡轉換 |
 | 敵人系統 | `src/Ark/EnemySystem.cpp` | 敵人生成、路線移動、阻擋、攻擊與死亡動畫 |
 | 幹員系統 | `src/Ark/OperatorSystem.cpp` | 部署判定、攻擊目標、技能、SP、再部署冷卻 |
 | 關卡載入 | `src/Ark/StageLoader.cpp` | 解析 JSON、載入 tile、route、enemy、wave、board art |
@@ -142,12 +142,6 @@ graph LR
 
 本專案在報告整理階段使用 AI Agent 輔助：
 
-1. 掃描 README、Proposal、程式碼與 JSON 資料，整理專案完成項目。
-2. 協助將程式架構轉成 Mermaid 架構圖。
-3. 協助檢查報告段落是否符合指定格式。
-4. 協助將技術細節整理成較適合期末報告閱讀的文字。
-
-AI 主要用於整理、輔助檢查與文件撰寫，核心遊戲邏輯、素材整合、功能取捨與最終驗證仍由開發者完成。
 
 ## 結語
 
